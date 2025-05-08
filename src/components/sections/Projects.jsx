@@ -58,7 +58,7 @@ export const Projects = () => {
                     cially viable technologies to improve capacity, efficiency, and product quality.Designed modular machinery UI from Figma, using Atomic Design Pattern and pagination for
                     efficient data handling and a seamless user experience.</p>
 
-                    <div>
+                    <div className="flex flex-wrap gap-2 mb-4">
                         {["React.jS", "RestAPI'S", "Npm", "TailwindCSS", "Redux", "Node.JS", "MongoDB"].map((tech,key)=>(
                             <span 
                             key={key}

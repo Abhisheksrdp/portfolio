@@ -22,7 +22,7 @@ export const Projects = () => {
                     GDP, with visual representations that promote awareness of economic health and fiscal dynamics. Built a multi-page app from Figma designs with user authentication, form validation, a real-time
                     data dashboard, and an interactive leader board with search, sort, and filter features</p>
 
-                    <div>
+                    <div className="flex flex-wrap gap-2 mb-4">
                         {["React.jS", "TailwindCSS", "Redux", "Node.JS", "MongoDB"].map((tech,key)=>(
                             <span 
                             key={key}
@@ -40,7 +40,7 @@ export const Projects = () => {
                     events, hotels, business listings, and community features like blogs and Q&A.Built with user authentication, API integrations, real-time listings, interactive blogs, and Sanity
                     CMS for dynamic content management.</p>
 
-                    <div>
+                    <div className="flex flex-wrap gap-2 mb-4">
                         {["React.jS", "TailwindCSS", "Redux", "Node.JS","Firebase", "Sanity-CMS"].map((tech,key)=>(
                             <span 
                             key={key}
@@ -75,7 +75,7 @@ export const Projects = () => {
 manage tasks with a user-friendly interface. The application allows users to add, edit, and delete tasks, while dynamically
 displaying the total number of tasks. Additionally, tasks are stored in local storage, ensuring persistence even after page refresh.</p>
 
-                    <div>
+                    <div className="flex flex-wrap gap-2 mb-4">
                         {["HTML5", "CSS3", "TailwindCSS", "JavaScript"].map((tech,key)=>(
                             <span 
                             key={key}
